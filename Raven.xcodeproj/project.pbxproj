@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A141B2E2110DFAD0081A7AB /* TestResourceOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A141B2D2110DFAD0081A7AB /* TestResourceOperation.swift */; };
+		0A141B3021110A370081A7AB /* NetworkLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A141B2F21110A370081A7AB /* NetworkLog.swift */; };
+		0A141B32211225550081A7AB /* objc.io.cer in Resources */ = {isa = PBXBuildFile; fileRef = 0A141B31211225540081A7AB /* objc.io.cer */; };
+		0A141B342112256B0081A7AB /* TestSSLPinningOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A141B332112256B0081A7AB /* TestSSLPinningOperation.swift */; };
+		0A141B36211226350081A7AB /* SSLPinningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A141B35211226350081A7AB /* SSLPinningTests.swift */; };
+		0A141B382112270D0081A7AB /* www.google.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 0A141B372112270D0081A7AB /* www.google.com.cer */; };
+		0A160BE62107C9D7005D16F2 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A160BE52107C9D7005D16F2 /* ServerTrustPolicy.swift */; };
+		0A646C6020FEA50700A0BEDF /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A646C5F20FEA50700A0BEDF /* NetworkController.swift */; };
+		0A9BF2EF2072B2D6007578ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BF2EE2072B2D6007578ED /* AppDelegate.swift */; };
+		0A9BF2F12072B2D6007578ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BF2F02072B2D6007578ED /* ViewController.swift */; };
+		0A9BF2F42072B2D6007578ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9BF2F22072B2D6007578ED /* Main.storyboard */; };
+		0A9BF2F62072B2D6007578ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A9BF2F52072B2D6007578ED /* Assets.xcassets */; };
+		0A9BF2F92072B2D6007578ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A9BF2F72072B2D6007578ED /* LaunchScreen.storyboard */; };
+		0A9BF3042072B2D6007578ED /* RavenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BF3032072B2D6007578ED /* RavenTests.swift */; };
+		0A9BF3112072C66E007578ED /* ServiceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BF3102072C66E007578ED /* ServiceConfiguration.swift */; };
+		0A9BF3132072C972007578ED /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BF3122072C972007578ED /* NetworkService.swift */; };
+		0A9BF3152072F166007578ED /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BF3142072F166007578ED /* Request.swift */; };
+		0A9BF31720741E7D007578ED /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BF31620741E7D007578ED /* Result.swift */; };
+		0A9BF32020757D46007578ED /* BaseOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BF31E20757D46007578ED /* BaseOperation.swift */; };
+		0A9BF32120757D46007578ED /* OperationObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BF31F20757D46007578ED /* OperationObserver.swift */; };
+		0A9BF32320757D7B007578ED /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9BF32220757D7B007578ED /* NetworkOperation.swift */; };
+		C336E47304115E10C180B41B /* Pods_RavenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A63DAB3D60903592593872 /* Pods_RavenTests.framework */; };
+		C6C59F8B09D3F142A3C01CE8 /* Pods_Raven.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7245E1E14614CBA29AF322C /* Pods_Raven.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A9BF3002072B2D6007578ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A9BF2E32072B2D6007578ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A9BF2EA2072B2D6007578ED;
+			remoteInfo = Raven;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A141B2D2110DFAD0081A7AB /* TestResourceOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResourceOperation.swift; sourceTree = "<group>"; };
+		0A141B2F21110A370081A7AB /* NetworkLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLog.swift; sourceTree = "<group>"; };
+		0A141B31211225540081A7AB /* objc.io.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = objc.io.cer; sourceTree = "<group>"; };
+		0A141B332112256B0081A7AB /* TestSSLPinningOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSSLPinningOperation.swift; sourceTree = "<group>"; };
+		0A141B35211226350081A7AB /* SSLPinningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLPinningTests.swift; sourceTree = "<group>"; };
+		0A141B372112270D0081A7AB /* www.google.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = www.google.com.cer; sourceTree = "<group>"; };
+		0A160BE52107C9D7005D16F2 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		0A646C5F20FEA50700A0BEDF /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		0A9BF2EB2072B2D6007578ED /* Raven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9BF2EE2072B2D6007578ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A9BF2F02072B2D6007578ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A9BF2F32072B2D6007578ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A9BF2F52072B2D6007578ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A9BF2F82072B2D6007578ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A9BF2FA2072B2D6007578ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9BF2FF2072B2D6007578ED /* RavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RavenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A9BF3032072B2D6007578ED /* RavenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RavenTests.swift; sourceTree = "<group>"; };
+		0A9BF3052072B2D6007578ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A9BF3102072C66E007578ED /* ServiceConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConfiguration.swift; sourceTree = "<group>"; };
+		0A9BF3122072C972007578ED /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		0A9BF3142072F166007578ED /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		0A9BF31620741E7D007578ED /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		0A9BF31E20757D46007578ED /* BaseOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseOperation.swift; sourceTree = "<group>"; };
+		0A9BF31F20757D46007578ED /* OperationObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationObserver.swift; sourceTree = "<group>"; };
+		0A9BF32220757D7B007578ED /* NetworkOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		1FD82A58DF7608D1CFFC9109 /* Pods-Raven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Raven.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Raven/Pods-Raven.debug.xcconfig"; sourceTree = "<group>"; };
+		26A63DAB3D60903592593872 /* Pods_RavenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RavenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3999A3B88FE950A654A352AA /* Pods-Raven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Raven.release.xcconfig"; path = "Pods/Target Support Files/Pods-Raven/Pods-Raven.release.xcconfig"; sourceTree = "<group>"; };
+		3F2998A3E397F0595FD41EE3 /* Pods-RavenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RavenTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RavenTests/Pods-RavenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		55994EEA489CEBAD229D3746 /* Pods-RavenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RavenTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RavenTests/Pods-RavenTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7245E1E14614CBA29AF322C /* Pods_Raven.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Raven.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A9BF2E82072B2D6007578ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6C59F8B09D3F142A3C01CE8 /* Pods_Raven.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BF2FC2072B2D6007578ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C336E47304115E10C180B41B /* Pods_RavenTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		032E7711EEC2E4FCE508C08D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FD82A58DF7608D1CFFC9109 /* Pods-Raven.debug.xcconfig */,
+				3999A3B88FE950A654A352AA /* Pods-Raven.release.xcconfig */,
+				3F2998A3E397F0595FD41EE3 /* Pods-RavenTests.debug.xcconfig */,
+				55994EEA489CEBAD229D3746 /* Pods-RavenTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0A9BF2E22072B2D6007578ED = {
+			isa = PBXGroup;
+			children = (
+				0A9BF2ED2072B2D6007578ED /* Raven */,
+				0A9BF3022072B2D6007578ED /* RavenTests */,
+				0A9BF2EC2072B2D6007578ED /* Products */,
+				032E7711EEC2E4FCE508C08D /* Pods */,
+				FB4CD85B77125EA791C01EF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A9BF2EC2072B2D6007578ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A9BF2EB2072B2D6007578ED /* Raven.app */,
+				0A9BF2FF2072B2D6007578ED /* RavenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A9BF2ED2072B2D6007578ED /* Raven */ = {
+			isa = PBXGroup;
+			children = (
+				0A9BF2EE2072B2D6007578ED /* AppDelegate.swift */,
+				0A9BF2F02072B2D6007578ED /* ViewController.swift */,
+				0A9BF3102072C66E007578ED /* ServiceConfiguration.swift */,
+				0A9BF3122072C972007578ED /* NetworkService.swift */,
+				0A9BF3142072F166007578ED /* Request.swift */,
+				0A9BF31620741E7D007578ED /* Result.swift */,
+				0A160BE52107C9D7005D16F2 /* ServerTrustPolicy.swift */,
+				0A9BF31E20757D46007578ED /* BaseOperation.swift */,
+				0A9BF32220757D7B007578ED /* NetworkOperation.swift */,
+				0A141B2F21110A370081A7AB /* NetworkLog.swift */,
+				0A9BF31F20757D46007578ED /* OperationObserver.swift */,
+				0A646C5F20FEA50700A0BEDF /* NetworkController.swift */,
+				0A9BF2F22072B2D6007578ED /* Main.storyboard */,
+				0A9BF2F52072B2D6007578ED /* Assets.xcassets */,
+				0A9BF2F72072B2D6007578ED /* LaunchScreen.storyboard */,
+				0A9BF2FA2072B2D6007578ED /* Info.plist */,
+			);
+			path = Raven;
+			sourceTree = "<group>";
+		};
+		0A9BF3022072B2D6007578ED /* RavenTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A141B372112270D0081A7AB /* www.google.com.cer */,
+				0A141B31211225540081A7AB /* objc.io.cer */,
+				0A9BF3032072B2D6007578ED /* RavenTests.swift */,
+				0A141B35211226350081A7AB /* SSLPinningTests.swift */,
+				0A141B2D2110DFAD0081A7AB /* TestResourceOperation.swift */,
+				0A141B332112256B0081A7AB /* TestSSLPinningOperation.swift */,
+				0A9BF3052072B2D6007578ED /* Info.plist */,
+			);
+			path = RavenTests;
+			sourceTree = "<group>";
+		};
+		FB4CD85B77125EA791C01EF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7245E1E14614CBA29AF322C /* Pods_Raven.framework */,
+				26A63DAB3D60903592593872 /* Pods_RavenTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A9BF2EA2072B2D6007578ED /* Raven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9BF3082072B2D6007578ED /* Build configuration list for PBXNativeTarget "Raven" */;
+			buildPhases = (
+				2F2D93A9C3B210B07F6C684B /* [CP] Check Pods Manifest.lock */,
+				0A9BF2E72072B2D6007578ED /* Sources */,
+				0A9BF2E82072B2D6007578ED /* Frameworks */,
+				0A9BF2E92072B2D6007578ED /* Resources */,
+				EDC3913984D456F841D8530F /* [CP] Embed Pods Frameworks */,
+				82760056CC0E3A7FF3936124 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raven;
+			productName = Raven;
+			productReference = 0A9BF2EB2072B2D6007578ED /* Raven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A9BF2FE2072B2D6007578ED /* RavenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A9BF30B2072B2D6007578ED /* Build configuration list for PBXNativeTarget "RavenTests" */;
+			buildPhases = (
+				652075F6803DA69D2F50E287 /* [CP] Check Pods Manifest.lock */,
+				0A9BF2FB2072B2D6007578ED /* Sources */,
+				0A9BF2FC2072B2D6007578ED /* Frameworks */,
+				0A9BF2FD2072B2D6007578ED /* Resources */,
+				8368E52C2D54F26E16E08E13 /* [CP] Embed Pods Frameworks */,
+				393D18713DDB8D9C893AB16B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A9BF3012072B2D6007578ED /* PBXTargetDependency */,
+			);
+			name = RavenTests;
+			productName = RavenTests;
+			productReference = 0A9BF2FF2072B2D6007578ED /* RavenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A9BF2E32072B2D6007578ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Ramsundar Shandilya";
+				TargetAttributes = {
+					0A9BF2EA2072B2D6007578ED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0A9BF2FE2072B2D6007578ED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A9BF2EA2072B2D6007578ED;
+					};
+				};
+			};
+			buildConfigurationList = 0A9BF2E62072B2D6007578ED /* Build configuration list for PBXProject "Raven" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A9BF2E22072B2D6007578ED;
+			productRefGroup = 0A9BF2EC2072B2D6007578ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A9BF2EA2072B2D6007578ED /* Raven */,
+				0A9BF2FE2072B2D6007578ED /* RavenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A9BF2E92072B2D6007578ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9BF2F92072B2D6007578ED /* LaunchScreen.storyboard in Resources */,
+				0A9BF2F62072B2D6007578ED /* Assets.xcassets in Resources */,
+				0A9BF2F42072B2D6007578ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BF2FD2072B2D6007578ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A141B32211225550081A7AB /* objc.io.cer in Resources */,
+				0A141B382112270D0081A7AB /* www.google.com.cer in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F2D93A9C3B210B07F6C684B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Raven-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		393D18713DDB8D9C893AB16B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RavenTests/Pods-RavenTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		652075F6803DA69D2F50E287 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RavenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82760056CC0E3A7FF3936124 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Raven/Pods-Raven-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8368E52C2D54F26E16E08E13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RavenTests/Pods-RavenTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC3913984D456F841D8530F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Raven/Pods-Raven-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Raven/Pods-Raven-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A9BF2E72072B2D6007578ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A646C6020FEA50700A0BEDF /* NetworkController.swift in Sources */,
+				0A9BF31720741E7D007578ED /* Result.swift in Sources */,
+				0A9BF32020757D46007578ED /* BaseOperation.swift in Sources */,
+				0A141B3021110A370081A7AB /* NetworkLog.swift in Sources */,
+				0A9BF2F12072B2D6007578ED /* ViewController.swift in Sources */,
+				0A9BF32120757D46007578ED /* OperationObserver.swift in Sources */,
+				0A9BF2EF2072B2D6007578ED /* AppDelegate.swift in Sources */,
+				0A160BE62107C9D7005D16F2 /* ServerTrustPolicy.swift in Sources */,
+				0A9BF3152072F166007578ED /* Request.swift in Sources */,
+				0A9BF3132072C972007578ED /* NetworkService.swift in Sources */,
+				0A9BF32320757D7B007578ED /* NetworkOperation.swift in Sources */,
+				0A9BF3112072C66E007578ED /* ServiceConfiguration.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9BF2FB2072B2D6007578ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A141B36211226350081A7AB /* SSLPinningTests.swift in Sources */,
+				0A9BF3042072B2D6007578ED /* RavenTests.swift in Sources */,
+				0A141B2E2110DFAD0081A7AB /* TestResourceOperation.swift in Sources */,
+				0A141B342112256B0081A7AB /* TestSSLPinningOperation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A9BF3012072B2D6007578ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A9BF2EA2072B2D6007578ED /* Raven */;
+			targetProxy = 0A9BF3002072B2D6007578ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A9BF2F22072B2D6007578ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9BF2F32072B2D6007578ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A9BF2F72072B2D6007578ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A9BF2F82072B2D6007578ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A9BF3062072B2D6007578ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A9BF3072072B2D6007578ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A9BF3092072B2D6007578ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD82A58DF7608D1CFFC9109 /* Pods-Raven.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL3PRC58UN;
+				INFOPLIST_FILE = Raven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymedialabs.enterprise.Raven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A9BF30A2072B2D6007578ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3999A3B88FE950A654A352AA /* Pods-Raven.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL3PRC58UN;
+				INFOPLIST_FILE = Raven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymedialabs.enterprise.Raven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A9BF30C2072B2D6007578ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2998A3E397F0595FD41EE3 /* Pods-RavenTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL3PRC58UN;
+				INFOPLIST_FILE = RavenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymedialabs.enterprise.RavenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raven.app/Raven";
+			};
+			name = Debug;
+		};
+		0A9BF30D2072B2D6007578ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55994EEA489CEBAD229D3746 /* Pods-RavenTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NL3PRC58UN;
+				INFOPLIST_FILE = RavenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ymedialabs.enterprise.RavenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raven.app/Raven";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A9BF2E62072B2D6007578ED /* Build configuration list for PBXProject "Raven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9BF3062072B2D6007578ED /* Debug */,
+				0A9BF3072072B2D6007578ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9BF3082072B2D6007578ED /* Build configuration list for PBXNativeTarget "Raven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9BF3092072B2D6007578ED /* Debug */,
+				0A9BF30A2072B2D6007578ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A9BF30B2072B2D6007578ED /* Build configuration list for PBXNativeTarget "RavenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A9BF30C2072B2D6007578ED /* Debug */,
+				0A9BF30D2072B2D6007578ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A9BF2E32072B2D6007578ED /* Project object */;
+}
